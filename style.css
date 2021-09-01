@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:url('gym.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 600px;
+    height: 600px;
+    border: 3px solid rgb(234, 250, 10);
+    margin-top: 30px;
+    background:linear-gradient((255 ,255, 255,1.0),(255, 255, 255,0.3));
+    text-align: center;
+    color: blanchedalmond;
+}
+#height, #weight {
+    width: 150px;
+    height: 25px;
+ 
+}
+
+#results{
+    font-size: 35px;
+    color:#99ffff;
+    margin-top: 15px;
+    
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+    background-color:rgb(234, 250, 10);
+    color:black;
+    font-size: 25px;
+    margin-top: 40px;
+}
+#weight-guide{
+font-size: 20px;
+color:  #e6f7ff;
+word-spacing: 5px;
+font-weight: 800;
+}
